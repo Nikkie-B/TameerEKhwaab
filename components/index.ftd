@@ -1,0 +1,46 @@
+-- component video-slide-card:
+caption title:
+optional string sub-title:
+body body:
+optional ftd.image-src image:
+optional string video:
+
+-- ftd.column:
+width.fixed.px: 300
+min-height.fixed.px if { ftd.device != "mobile" }: 380
+padding.px: 16
+spacing.fixed.px: 24
+background.solid: $inherited.colors.background.step-2
+
+-- ftd.image:
+if: { video-slide-card.image != NULL }
+src: $video-slide-card.image
+width: fill-container
+height.fixed.px if { ftd.device != "mobile" }: 180
+fit: cover
+
+-- ftd.video:
+if: { video-slide-card.video != NULL }
+src: $video-slide-card.video
+classes: autoplay-video
+css: [$assets.files.assets.style.css]
+js: $assets.files.assets.stack.js
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 6
+
+-- ds.heading-small: $video-slide-card.title
+
+-- ds.copy-small: $video-slide-card.sub-title
+if: { video-slide-card.sub-title != NULL }
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- ds.copy-small: $video-slide-card.body
+color: $inherited.colors.text-strong
+
+-- end: ftd.column
+
+-- end: video-slide-card

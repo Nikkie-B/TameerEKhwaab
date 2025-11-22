@@ -13,6 +13,7 @@ provided-via: tameer-e-khwab.fifthtry.site/ds
 -- fastn.dependency: testimonial.fifthtry.site
 
 -- fastn.auto-import: tameer-e-khwab.fifthtry.site/assets
+-- fastn.auto-import: tameer-e-khwab.fifthtry.site/components as lib
 -- fastn.auto-import: design-system.fifthtry.site as ds
 -- fastn.auto-import: card.fifthtry.site as card
 -- fastn.auto-import: slider.fifthtry.site as slider

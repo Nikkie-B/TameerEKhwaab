@@ -59,26 +59,26 @@ wrap: true
 spacing.fixed.px: 24
 align-content: center
 
--- slider.video-slide-card: Content Studio
+-- lib.video-slide-card: Content Studio
 sub-title: (on caffeine + Runway NextGen)
 video: $assets.files.assets.studio.mp4
 
 AI video tools + actual humans = Fast, Fabulous, Feels-heavy Films
 
--- slider.video-slide-card: PR & Performance Marketing
+-- lib.video-slide-card: PR & Performance Marketing
 video: $assets.files.assets.performance.mp4
 
 Not just buzz. Believability. We get people talking, clicking, crying.
 Sometimes all three.
 
--- slider.video-slide-card: Brand Strategy
+-- lib.video-slide-card: Brand Strategy
 sub-title: (with Guts)
 video: $assets.files.assets.strategy.mp4
 
 We deep-dive into your story and resurface with a brand tone that sounds
 exactly like you, but cooler.
 
--- slider.video-slide-card: Analytics That Understand Vibes
+-- lib.video-slide-card: Analytics That Understand Vibes
 video: $assets.files.assets.analytics.mp4
 
 We use AI to track who’s vibing, who’s ghosting, and how to make them fall
