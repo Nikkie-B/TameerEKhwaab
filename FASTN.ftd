@@ -1,0 +1,30 @@
+-- import: fastn
+
+-- fastn.package: tameer-e-khwab.fifthtry.site
+
+-- fastn.dependency: design-system.fifthtry.site
+provided-via: tameer-e-khwab.fifthtry.site/ds
+
+-- fastn.dependency: navbar.fifthtry.site
+-- fastn.dependency: footer.fifthtry.site
+-- fastn.dependency: hero.fifthtry.site
+-- fastn.dependency: card.fifthtry.site
+-- fastn.dependency: slider.fifthtry.site
+-- fastn.dependency: testimonial.fifthtry.site
+
+-- fastn.auto-import: tameer-e-khwab.fifthtry.site/assets
+-- fastn.auto-import: design-system.fifthtry.site as ds
+-- fastn.auto-import: card.fifthtry.site as card
+-- fastn.auto-import: slider.fifthtry.site as slider
+-- fastn.auto-import: hero.fifthtry.site as hero
+-- fastn.auto-import: testimonial.fifthtry.site as testimonials
+
+
+-- fastn.sitemap:
+
+# Home: /
+# What We Do: /#what-we-do
+# What We Made: /#past-project
+# Clients: /#clients
+# About Us: /#team
+# Contact Us: /#contact-us

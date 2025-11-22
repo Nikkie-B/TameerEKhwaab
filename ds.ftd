@@ -1,0 +1,123 @@
+-- import: navbar.fifthtry.site as header
+-- import: footer.fifthtry.site
+-- import: design-system.fifthtry.site
+export: *
+
+-- ftd.image-src site-logo: $assets.files.assets.logo.svg
+-- string site-url: /
+-- string copyright: Copyright 2025
+
+-- import: tameer-e-khwab.fifthtry.site/cs
+
+-- ftd.color-scheme colors: $cs.main
+
+
+-- page-widths widths:
+regular.px: 1560
+narrow.px: 1000
+wide.px: 1800
+
+
+-- component site-header:
+
+-- ftd.column:
+width: fill-container
+sticky: true
+left.px: 0
+top.px: 0
+z-index: 999
+
+-- header.header:
+site-name: Tameer e Khwaab
+site-url: /
+site-logo: $site-logo
+align-right: true
+sections: $header.sitemap.sections
+logo-width: 100
+
+-- end: ftd.column
+
+-- end: site-header
+
+
+
+
+-- component site-footer:
+
+-- ftd.row:
+id: contact-us
+width: fill-container
+padding-vertical.px: 60
+spacing: space-between
+padding-horizontal.px: 24
+align-content: center
+wrap if { ftd.device == "mobile" }: true
+
+-- ftd.column:
+spacing.fixed.px: 24
+
+-- ftd.image:
+src: $assets.files.assets.khwaab.svg
+anchor: parent
+width.fixed.px: 90
+width.fixed.px if { ftd.device == "mobile" }: 50
+top.px: -40
+top.px if { ftd.device == "mobile" }: -50
+left.px: 420
+left.px if { ftd.device == "mobile" }: 0
+z-index: 1
+
+-- ftd.text: *Let’s Build your Khwaab*
+role: $ds.types.heading-large
+text-align if { ftd.device == "mobile" }: center
+z-index: 3
+
+-- ftd.column:
+spacing.fixed.px: 4
+align-content if { ftd.device == "mobile" }: center
+
+-- ds.heading-medium: Content with **character**. Stories with **soul**.
+width.fixed.px if { ftd.device != "mobile" }: 400
+align if { ftd.device == "mobile" }: center
+style: regular
+
+-- ds.copy-regular:
+width.fixed.px if { ftd.device != "mobile" }: 250
+align if { ftd.device == "mobile" }: center
+
+Marketing that is **measurable**.
+
+
+-- end: ftd.column
+
+-- ds.copy-small: ©Tameer-e-Khwaab 2025
+
+-- end: ftd.column
+
+-- ds.copy-regular:
+width.fixed.px if { ftd.device != "mobile" }: 360
+align: center 
+
+Whether you’re a Startup Founder looking to scale your business or a  Brand
+Manager looking for a Gen Z first AI powered one stop shop —we’re here for
+you.
+
+-- ftd.column:
+spacing.fixed.px: 24
+align-content: center
+
+-- ds.copy-regular:
+align: center 
+
+**Based in Mumbai.** 
+
+Working across timelines, tongues, and time zones. 
+
+-- ds.primary-button: Book a free creative consult
+link: mailto: tameer-e-khwaab.gmail.com
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: site-footer

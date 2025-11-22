@@ -1,0 +1,456 @@
+-- ds.site-page: TameerEKhwaab
+inset: $ds.spaces.inset-square.zero
+spacing: $ds.spaces.vertical-gap.zero
+
+-- ftd.column:
+width: fill-container
+align-content: center
+
+/-- hero.hero-with-background: Where **Dreams** get **Deadlines**
+bg-image: $assets.files.assets.hero-bg.png
+sub-title: A storytelling **studio + content lab** where **cinema** meets **campaigns**, and AI meets andaaz.
+text-wrap: true
+min-height.fixed.px: 550
+
+-- hero.hero-carousel:
+carousel-list: $carousel-list
+
+-- ftd.column:
+width: fill-container
+margin-vertical.px: 28
+align-content: center
+spacing.fixed.px: 28
+id: what-we-do
+
+-- ds.heading-large: What We Do
+align: center
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 4
+
+-- ftd.column:
+width: fill-container
+align-content: right
+
+-- ds.copy-large: Stories that **Perform** Ads that **Feel** Content that **Clicks**
+width.fixed.px if { ftd.device != "mobile" }: 180
+align: right
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+align-content: left
+
+-- ds.heading-medium: We don’t just **“make stuff.”** We build **lore**.
+style: regular, italic
+width.fixed.px if { ftd.device != "mobile" }: 420
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.row:
+width: fill-container
+padding-horizontal.px: 24
+padding-horizontal.px if { ftd.device == "mobile" }: 24
+wrap: true
+spacing.fixed.px: 24
+align-content: center
+
+-- slider.video-slide-card: Content Studio
+sub-title: (on caffeine + Runway NextGen)
+video: $assets.files.assets.studio.mp4
+
+AI video tools + actual humans = Fast, Fabulous, Feels-heavy Films
+
+-- slider.video-slide-card: PR & Performance Marketing
+video: $assets.files.assets.performance.mp4
+
+Not just buzz. Believability. We get people talking, clicking, crying.
+Sometimes all three.
+
+-- slider.video-slide-card: Brand Strategy
+sub-title: (with Guts)
+video: $assets.files.assets.strategy.mp4
+
+We deep-dive into your story and resurface with a brand tone that sounds
+exactly like you, but cooler.
+
+-- slider.video-slide-card: Analytics That Understand Vibes
+video: $assets.files.assets.analytics.mp4
+
+We use AI to track who’s vibing, who’s ghosting, and how to make them fall
+back in love.
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+margin-vertical.px: 28
+align-content: center
+spacing.fixed.px: 28
+padding-horizontal.px: 24
+padding-vertical.px: 60
+background.solid: $ds.colors.background.step-2
+id: past-project
+
+-- ds.heading-large: Watch What We Made
+align: center
+color: #1F001B
+
+
+-- ftd.row:
+width: fill-container
+wrap: true
+spacing.fixed.px: 24
+align-content: top-center
+
+-- card.overlay-card: Ad Campaigns 
+card-image: $assets.files.assets.work-3.png
+cta-text: More
+cta-link: /portfolio/ad-campaigns/
+small-card: true
+
+-- card.overlay-card: Corporate Films
+card-image: $assets.files.assets.work-7.png
+cta-text: More
+cta-link: /portfolio/corporate-films/
+small-card: true
+
+-- card.overlay-card: AI Ads + Spec Ads
+card-image: $assets.files.assets.girl.png
+cta-text: More
+cta-link: /portfolio/ai-ads/
+small-card: true
+
+-- card.overlay-card: Short Fiction & Documentaries
+card-image: $assets.files.assets.light.jpeg
+cta-text: More
+cta-link: /portfolio/short-fiction+documentaries/
+small-card: true
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+margin-vertical.px: 28
+align-content: center
+spacing.fixed.px: 28
+padding-horizontal.px: 24
+padding-vertical.px: 60
+id: clients
+
+-- ds.heading-large: Client Magic
+align: center
+
+-- slider.stack-card:
+stack-card-list: $stack-card-list
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+margin-vertical.px: 28
+align-content: center
+spacing.fixed.px: 24
+padding-horizontal.px: 24
+padding-vertical.px: 60
+
+-- ds.heading-large: From the Clients
+align: center
+
+-- testimonials.testimonial-square-card:
+testimonials: $list-of-testimonials
+nav: $navs
+
+-- end: ftd.column
+
+-- ftd.column:
+width: fill-container
+margin-vertical.px: 28
+align-content: center
+spacing.fixed.px: 60
+padding-horizontal.px: 24
+padding-vertical.px: 60
+id: team
+background.solid: $ds.colors.background.step-2
+
+-- ds.heading-large: Meet the Magic Maker
+align: center
+color: #1F001B
+
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 30
+align-content: left
+wrap if { ftd.device == "mobile" }: true
+
+-- ftd.image:
+src: $assets.files.assets.nikie.png
+width.fixed.px: 590
+width if { ftd.device == "mobile" }: fill-container
+height.fixed.px: 500
+fit: contain
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 30
+align-content: top-left
+width.fixed.px if { ftd.device != "mobile" }: 650
+
+-- ds.heading-large: *Nikie B.*
+color: #1F001B
+
+-- ds.copy-large:
+color: #1F001B
+
+FTII-trained actor. Kathak dancer. Billboard face of IKEA.
+
+Nikie B. moves between cinema and campaigns with equal ease—bringing
+performance, poetry, and precision into every project. Soon to be seen on
+Netflix and Prime Video, she has performed at the Edinburgh Fringe Festival
+and shaped stories for startups like Wispr AI as well as legacy giants like
+Emcure Pharmaceuticals, giving both a pulse that speaks to Gen Z.
+
+Through Tameer e Khwaab, she builds brands that whisper secrets, sing anthems,
+or scream revolutions—depending on the day. Her guiding philosophy is simple
+and stubborn: only tell stories that would break your heart if someone else
+told them first.
+
+Her quiet rebellion: to curb indifference in the world, one luminous,
+unforgettable story at a time.
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 30
+align-content: top-left
+padding-horizontal.px: 70
+padding-horizontal.px if { ftd.device == "mobile" }: 24
+
+-- ds.heading-large: WHY US?
+align if { ftd.device == "mobile" }: center
+color: #1F001B
+
+-- ds.copy-regular:
+color: #1F001B
+style: semi-bold
+
+Our content studio is powered by creators behind campaigns for Netflix, HDFC,
+Maybelline, Emcure Pharmaceuticals, and Taj Hotels. We bring fresh ideas with
+proven expertise across film, marketing, branding, and digital storytelling.
+Every project is custom-built with the right talent to deliver world-class
+results.
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 24
+wrap if { ftd.device == "mobile" }: true
+
+-- ftd.column:
+width.fixed.percent: 50
+width if { ftd.device == "mobile" }: fill-container
+padding.px: 24
+background.solid: $ds.colors.background.step-1
+align-content: left
+
+-- ds.heading-small: We Bring
+
+- FTII-honed storytellers + meme-loving marketers
+- Tech-stack with tools like Veo 3, Google Banana, HAILUO.ai, RunwayML
+- Personal obsession over client stories
+- Real creatives, not just content freelancers
+- Humour, honesty, high standards
+
+-- end: ftd.column
+
+-- ftd.column:
+width.fixed.percent: 50
+width if { ftd.device == "mobile" }: fill-container
+padding.px: 24
+background.solid: $ds.colors.background.step-1
+align-content: left
+
+-- ds.heading-small:  So You Get
+
+- A brand with both craft and crackle
+- Campaigns that convert with character
+- Content that actually sounds like a human wrote it
+- Work that wins heads and hearts
+- You’ll laugh, cry, and hit publish faster than ever
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ds.site-page
+
+
+
+
+-- slider.stack-cards list stack-card-list:
+
+-- slider.stack-cards:
+name: Wispr AI
+location: San Francisco
+image: $assets.files.assets.flow.jpeg
+contain: true
+
+AI launch strategy + go-to-market voice that talked like a founder, not a bot.
+
+*When AI needed a soul, we wrote the script.*
+
+-- slider.stack-cards:
+name: Spirited Heroine Productions
+location: Bern
+image: $assets.files.assets.spirited.jpeg
+contain: true
+
+Indie film rebels meet Indian red carpets. PR that linked them to the right
+festivals—minus the boring press kits.
+
+*Because indie dreams deserve cinematic stages*
+
+-- slider.stack-cards:
+name: Counsel Quest
+location: Delhi 
+image: $assets.files.assets.counsel.jpeg
+contain: true
+
+Two POSH films that educate, engage, and lowkey emotionally wreck.
+
+*Compliance, but make it cathartic.*
+
+-- slider.stack-cards:
+name: Arth by Emcure
+location: Mumbai
+image: $assets.files.assets.arthlogo.svg
+contain: true
+
+Performance campaigns with actual performance (and a poetic twist).
+
+*ROI with goosebumps.*
+
+-- slider.stack-cards:
+name: Kirsh Games
+location: Mumbai
+image: $assets.files.assets.zero.jpeg
+contain: true
+
+Sci-fi RPG launch with meme-core storytelling. We called it marketing cosplay.
+
+*When gamers roleplay, so do we.*
+
+-- slider.stack-cards:
+name: House of Art
+location: Pune
+image: $assets.files.assets.house-of-art.png
+contain: true
+
+Visual storytelling that felt like sipping tea in a Wes Anderson salon.
+
+*Content with pastel frames and perfect symmetry.*
+
+-- slider.stack-cards:
+name: Code Academy
+location: Mumbai
+image: $assets.files.assets.ca.jpeg
+contain: true
+
+Ran their socials like a schoolyard revolution + PR outreach that got real
+classrooms on board.
+
+*From hashtags to hallways—making ambition go viral.*
+
+-- end: stack-card-list
+
+
+
+
+-- testimonials.testimonial list list-of-testimonials:
+
+-- testimonials.testimonial: Zero Gaming
+user: Harsh Jain
+designation: Founder, Kirsh Games
+index: 1
+
+Tameer gave us a strong bank of creative content that hit the right notes for
+our brand. Even before release, it felt fresh, on-point, and worth the
+investment.
+
+-- testimonials.testimonial: Counsel Quest
+user: Jyoti Grover
+designation: Founder & Director, Counsel Quest
+index: 2
+
+The POSH films were powerful and seamless to execute. The process was smooth,
+the outcome even better.
+
+-- testimonials.testimonial: The School of Life
+user: Rani
+designation: Head of Operations, The School of Life
+index: 3
+
+We were their first client, but it never showed. The films carried heart and
+professionalism in equal measure.
+
+-- end: list-of-testimonials
+
+-- testimonials.testimonial-nav list navs:
+
+-- testimonials.testimonial-nav:
+active: true
+index: 1
+
+-- testimonials.testimonial-nav:
+index: 2
+
+-- testimonials.testimonial-nav:
+index: 3
+
+-- end: navs
+
+
+
+
+
+
+-- hero.carousel list carousel-list:
+
+-- hero.carousel:
+line-1: Where **Dreams** get **Deadlines**
+line-2: A storytelling **studio + content lab**
+line-3: where **cinema** meets **campaigns**,
+line-4: AI meets andaaz.
+video: $assets.files.assets.hero-video-3.mp4
+
+-- hero.carousel:
+line-1: **PR** with a pulse. 
+line-2: **Marketing strategy** with masala,
+line-3: **analytics** that vibe
+line-4: We track what clicks
+video: $assets.files.assets.hero-video-4.mp4
+
+-- hero.carousel:
+line-1: From **Netflix** to **Taj**
+line-2: **Horror** to **Comedy**
+video: $assets.files.assets.hero-video-1.mp4
+
+-- end: carousel-list
