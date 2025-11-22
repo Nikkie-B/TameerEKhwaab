@@ -379,6 +379,16 @@ classrooms on board.
 
 *From hashtags to hallways—making ambition go viral.*
 
+-- slider.stack-cards:
+name: Fastn
+location: Bangalore
+image: $assets.files.assets.fastn.svg
+contain: true
+
+We shaped the story of a language rewriting the internet.
+
+*When Fastn set out to democratize the web, we made the investor pitch impossible to ignore.*
+
 -- end: stack-card-list
 
 
