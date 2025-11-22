@@ -530,9 +530,9 @@ role: $ds.types.copy-regular
 link: $header-item-right.link
 white-space: nowrap
 padding-left.px: 10
-color: $ds.colors.custom.two
-color if { header-item-right.mouse-in }: $ds.colors.custom.three
-color if { header-item-right.is-active }: $ds.colors.custom.three
+color: $inherited.colors.custom.two
+color if { header-item-right.mouse-in }: $inherited.colors.custom.three
+color if { header-item-right.is-active }: $inherited.colors.custom.three
 $on-mouse-leave$: $ftd.set-bool($a = $header-item-right.mouse-in, v = false)
 $on-mouse-enter$: $ftd.set-bool($a = $header-item-right.mouse-in, v = true)
 style if { header-item-right.is-active }: bold
@@ -1175,3 +1175,4 @@ blur.px: 60
 spread.px: 0
 x-offset.px: 0
 y-offset.px: 2
+
