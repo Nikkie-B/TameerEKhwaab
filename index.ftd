@@ -1,6 +1,8 @@
 -- ds.site-page: TameerEKhwaab
 inset: $ds.spaces.inset-square.zero
 spacing: $ds.spaces.vertical-gap.zero
+theme-switcher: false
+fastn-badge: false
 
 -- ftd.column:
 width: fill-container
