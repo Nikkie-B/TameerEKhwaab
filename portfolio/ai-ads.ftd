@@ -1,0 +1,52 @@
+-- ds.site-page: TameerEKhwaab
+inset: $ds.spaces.inset-square.zero
+spacing: $ds.spaces.vertical-gap.zero
+
+-- ftd.column:
+width: fill-container
+align-content: center
+spacing.fixed.px: 32
+
+-- ds.heading-large: AI Ads + Spec Ads
+
+-- ftd.row:
+spacing.fixed.px: 24
+margin-top.px: 50
+
+-- ftd.image:
+src: $assets.files.assets.ai-1.png
+width.fixed.px: 320
+height.fixed.px: 340
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=lVRB6aPL1ss
+
+-- ftd.image:
+src: $assets.files.assets.ad.png
+width.fixed.px: 320
+height.fixed.px: 340
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=ox-v0cpYsJw
+
+-- ftd.image:
+src: $assets.files.assets.ad-2.png
+width.fixed.px: 320
+height.fixed.px: 340
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=Hx1PNwWY0_0
+
+-- ftd.image:
+src: $assets.files.assets.snap.png
+width.fixed.px: 320
+height.fixed.px: 340
+fit: cover
+border-radius.px: 12
+link: https://vimeo.com/1027585408?fl=pl&fe=vl
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ds.site-page

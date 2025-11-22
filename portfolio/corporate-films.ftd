@@ -1,0 +1,33 @@
+-- ds.site-page: TameerEKhwaab
+inset: $ds.spaces.inset-square.zero
+spacing: $ds.spaces.vertical-gap.zero
+
+-- ftd.column:
+width: fill-container
+align-content: center
+spacing.fixed.px: 32
+
+-- ds.heading-large: Corporate Films
+
+-- ftd.row:
+spacing.fixed.px: 24
+
+-- ftd.image:
+src: $assets.files.assets.cop-1.png
+width.fixed.px: 600
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=_rGneSZEioY
+
+-- ftd.image:
+src: $assets.files.assets.corporate.png
+width.fixed.px: 600
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=6sgIkpf_CYw
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ds.site-page

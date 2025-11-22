@@ -1,0 +1,51 @@
+-- ds.site-page: TameerEKhwaab
+inset: $ds.spaces.inset-square.zero
+spacing: $ds.spaces.vertical-gap.zero
+
+-- ftd.column:
+width: fill-container
+align-content: center
+spacing.fixed.px: 32
+
+-- ds.heading-large: Short Fiction & Documentaries
+
+-- ftd.row:
+spacing.fixed.px: 24
+
+-- ftd.image:
+src: $assets.files.assets.img.png
+width.fixed.px: 320
+height.fixed.px: 400
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=rdKzOADNSFs
+
+-- ftd.image:
+src: $assets.files.assets.dog.png
+width.fixed.px: 320
+height.fixed.px: 400
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=sH493JxJgKM
+
+-- ftd.image:
+src: $assets.files.assets.once-upon-a-time.png
+width.fixed.px: 320
+height.fixed.px: 400
+fit: cover
+border-radius.px: 12
+link: https://www.youtube.com/watch?v=sH493JxJgKM
+
+-- ftd.image:
+src: $assets.files.assets.eye.png
+width.fixed.px: 320
+height.fixed.px: 400
+fit: cover
+border-radius.px: 12
+link: https://youtu.be/gHh3nd-BRto
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ds.site-page
