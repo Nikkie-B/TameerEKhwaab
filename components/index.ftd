@@ -44,3 +44,72 @@ color: $inherited.colors.text-strong
 -- end: ftd.column
 
 -- end: video-slide-card
+
+
+
+
+
+
+-- component overlay-card:
+ftd.image-src card-image:
+caption title:
+optional body body:
+optional string cta-text:
+optional string cta-link:
+boolean $hover: false
+boolean $mouse-in: false
+boolean small-card: false
+boolean fixed-height: false
+
+-- ds.column:
+width.fixed.px: 350
+height.fixed.px if { overlay-card.fixed-height }: 350
+width.fixed.px if { overlay-card.small-card }: 280
+height.fixed.px if { overlay-card.small-card }: 280
+inset: $ds.spaces.inset-square.zero
+radius: $ds.radius.zero
+$on-mouse-enter$: $ftd.set-bool($a = $overlay-card.hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $overlay-card.hover, v = false)
+
+-- ftd.image:
+src: $overlay-card.card-image
+width: fill-container
+fit: cover
+width.fixed.px if { overlay-card.small-card }: 280
+height.fixed.px if { overlay-card.small-card }: 280
+height.fixed.px if { overlay-card.fixed-height }: 350
+
+-- ftd.column:
+if: { overlay-card.hover }
+background.solid: $ds.colors.background.overlay
+anchor: parent
+top.px: 0
+width: fill-container
+height: fill-container
+padding.px: 24
+align-content: center
+spacing.fixed.px: 120
+
+-- ds.heading-medium: $overlay-card.title
+align: center
+color: $inherited.colors.cta-secondary.text
+
+-- ds.copy-regular: $overlay-card.body
+if: { overlay-card.body != NULL }
+
+-- ftd.text: $overlay-card.cta-text
+if: { overlay-card.cta-text != NULL }
+link: $overlay-card.cta-link
+role: $ds.types.copy-small
+open-in-new-tab: true
+color: $inherited.colors.cta-secondary.base
+color if { overlay-card.mouse-in }: $inherited.colors.cta-secondary.hover
+style: underline, bold
+$on-mouse-enter$: $ftd.set-bool($a = $overlay-card.mouse-in, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $overlay-card.mouse-in, v = false)
+
+-- end: ftd.column
+
+-- end: ds.column
+
+-- end: overlay-card

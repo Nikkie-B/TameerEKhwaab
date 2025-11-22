@@ -18,6 +18,7 @@ width.fixed.px: 600
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=_rGneSZEioY
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.corporate.png
@@ -25,6 +26,7 @@ width.fixed.px: 600
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=6sgIkpf_CYw
+open-in-new-tab: true
 
 -- end: ftd.row
 

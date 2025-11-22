@@ -19,6 +19,7 @@ height.fixed.px: 400
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=rdKzOADNSFs
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.dog.png
@@ -27,6 +28,7 @@ height.fixed.px: 400
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=sH493JxJgKM
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.once-upon-a-time.png
@@ -35,6 +37,7 @@ height.fixed.px: 400
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=sH493JxJgKM
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.eye.png
@@ -43,6 +46,7 @@ height.fixed.px: 400
 fit: cover
 border-radius.px: 12
 link: https://youtu.be/gHh3nd-BRto
+open-in-new-tab: true
 
 -- end: ftd.row
 

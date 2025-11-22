@@ -20,6 +20,7 @@ height.fixed.px: 340
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=lVRB6aPL1ss
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.ad.png
@@ -28,6 +29,7 @@ height.fixed.px: 340
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=ox-v0cpYsJw
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.ad-2.png
@@ -36,6 +38,7 @@ height.fixed.px: 340
 fit: cover
 border-radius.px: 12
 link: https://www.youtube.com/watch?v=Hx1PNwWY0_0
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.snap.png
@@ -44,6 +47,7 @@ height.fixed.px: 340
 fit: cover
 border-radius.px: 12
 link: https://vimeo.com/1027585408?fl=pl&fe=vl
+open-in-new-tab: true
 
 -- end: ftd.row
 

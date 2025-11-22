@@ -18,6 +18,7 @@ width.fixed.px: 320
 height.fixed.px: 400
 fit: cover
 border-radius.px: 12
+open-in-new-tab: true
 link: https://www.instagram.com/reel/DK_WRpZSRO3/?utm_source=ig_web_copy_link&igsh=MTN2c2U1dGdnZ3lqOA%3D%3D
 
 -- ftd.image:
@@ -26,6 +27,7 @@ width.fixed.px: 320
 height.fixed.px: 400
 fit: cover
 border-radius.px: 12
+open-in-new-tab: true
 link: https://www.instagram.com/reel/DKt_vjmokl-/?utm_source=ig_web_copy_link&igsh=MXFpaTlpNG9tNnU2MA%3D%3D
 
 -- ftd.image:
@@ -35,6 +37,7 @@ height.fixed.px: 400
 fit: cover
 border-radius.px: 12
 link: https://www.instagram.com/reel/DJvNtDDSRmy/?utm_source=ig_web_copy_link
+open-in-new-tab: true
 
 -- ftd.image:
 src: $assets.files.assets.work-4.png
@@ -43,6 +46,7 @@ height.fixed.px: 400
 fit: cover
 border-radius.px: 12
 link: https://www.instagram.com/reel/DJqMHw3ypYN/?utm_source=ig_web_copy_link&igsh=MW15ZHpoZHEybGVwaQ%3D%3D
+open-in-new-tab: true
 
 -- end: ftd.row
 

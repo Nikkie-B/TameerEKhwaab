@@ -1,4 +1,4 @@
--- import: navbar.fifthtry.site as header
+-- import: tameer-e-khwab.fifthtry.site/header as header
 -- import: footer.fifthtry.site
 -- import: design-system.fifthtry.site
 export: *

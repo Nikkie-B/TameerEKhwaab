@@ -1,8 +1,6 @@
 -- ds.site-page: TameerEKhwaab
 inset: $ds.spaces.inset-square.zero
 spacing: $ds.spaces.vertical-gap.zero
-theme-switcher: false
-fastn-badge: false
 
 -- ftd.column:
 width: fill-container
@@ -111,25 +109,25 @@ wrap: true
 spacing.fixed.px: 24
 align-content: top-center
 
--- card.overlay-card: Ad Campaigns 
+-- lib.overlay-card: Ad Campaigns 
 card-image: $assets.files.assets.work-3.png
 cta-text: More
 cta-link: /portfolio/ad-campaigns/
 small-card: true
 
--- card.overlay-card: Corporate Films
+-- lib.overlay-card: Corporate Films
 card-image: $assets.files.assets.work-7.png
 cta-text: More
 cta-link: /portfolio/corporate-films/
 small-card: true
 
--- card.overlay-card: AI Ads + Spec Ads
+-- lib.overlay-card: AI Ads + Spec Ads
 card-image: $assets.files.assets.girl.png
 cta-text: More
 cta-link: /portfolio/ai-ads/
 small-card: true
 
--- card.overlay-card: Short Fiction & Documentaries
+-- lib.overlay-card: Short Fiction & Documentaries
 card-image: $assets.files.assets.light.jpeg
 cta-text: More
 cta-link: /portfolio/short-fiction+documentaries/
