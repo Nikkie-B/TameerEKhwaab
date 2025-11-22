@@ -95,7 +95,7 @@ align-content: center
 spacing.fixed.px: 28
 padding-horizontal.px: 24
 padding-vertical.px: 60
-background.solid: $ds.colors.background.step-2
+background.solid: $inherited.colors.background.step-2
 id: past-project
 
 -- ds.heading-large: Watch What We Made
@@ -179,7 +179,7 @@ spacing.fixed.px: 60
 padding-horizontal.px: 24
 padding-vertical.px: 60
 id: team
-background.solid: $ds.colors.background.step-2
+background.solid: $inherited.colors.background.step-2
 
 -- ds.heading-large: Meet the Magic Maker
 align: center
@@ -261,7 +261,7 @@ wrap if { ftd.device == "mobile" }: true
 width.fixed.percent: 50
 width if { ftd.device == "mobile" }: fill-container
 padding.px: 24
-background.solid: $ds.colors.background.step-1
+background.solid: $inherited.colors.background.step-1
 align-content: left
 
 -- ds.heading-small: We Bring
@@ -278,7 +278,7 @@ align-content: left
 width.fixed.percent: 50
 width if { ftd.device == "mobile" }: fill-container
 padding.px: 24
-background.solid: $ds.colors.background.step-1
+background.solid: $inherited.colors.background.step-1
 align-content: left
 
 -- ds.heading-small:  So You Get
